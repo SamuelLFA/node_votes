@@ -1,0 +1,22 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/consumer.ts",
+    "build": "tsc",
+    "start": "node build/consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.7.0-dev.20220311"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.21",
+    "aws-sdk": "^2.1092.0"
+  }
+}
